@@ -1,180 +1,97 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="noun_chilli_2387889 - black_square.png"/>
-</head>
-<style>
-    body,
-    html {
-        height: 600px;
-        margin: 0;
-    }
-
-    .bgimg {
-        background-image: url(Table_Stock_Image.png);
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        color: white;
-        font-family: "Source Sans Pro", sans-serif;
-        font-size: 25px;
-        z-index: -1;
-    }
-
-    .topcenter {
-        position: absolute;
-        top: 20px;
-        left: 50%;
-        margin-left: -67.5px;
-    }
-
-    .topleft {
-        position: absolute;
-        top: 0;
-        left: 16px;
-    }
-
-    .bottomleft {
-        position: absolute;
-        bottom: 0;
-        left: 16px;
-    }
-
-    .middle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    hr {
-        margin: auto;
-        width: 40%;
-    }
-
-    .form {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-left: -320px;
-        text-align: center;
-    }
-
-    .bottomcenter {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    margin-left: -25px;
-    background-color: transparent;
-    }
-
-    /* Navbar formatting */
-    
-    /* Add a black background color to the top navigation */
-    .topnav {
-    background-color:black;
-    opacity: 0.5;
-    overflow: hidden;
-    }
-
-    /* Style the links inside the navigation bar */
-    .topnav a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    }
-
-    /* Change the color of links on hover */
-    .topnav a:hover {
-    background-color:black;
-    color: white;
-    }
-
-    /* Add an active class to highlight the current page */
-    .topnav a.active {
-    background-color:red;
-    color: white;
-    }
-
-    /* Hide the link that should open and close the topnav on small screens */
-    .topnav .icon {
-    display: none;
-    }
-
-    @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
-    }
-
-    @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    }
-    
-</style>
-
-<body>
-
-    <div class="topleft">
-        <img src="TheChilliPeople_Logo_White.png"
-        width = 135px height = 125px>
-    </div>
-
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <div class="topnav" id="myTopnav">
-        <a href = "https://dev.thechillipeople.com"> Home </a>
-        <a href = "shop.html"> Shop </a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-
-    <script>
-    function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-    }
-    </script>
-
-    <div class="bgimg">
-        <div class="middle">
-        </div>
-    </div>
-
-    <div class="form">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCbsnyLImXxtYZ408jxi-PAEDCyAikmI85WIiouyEL5JzIsQ/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
-
-    <div class="bottomcenter">
-        <a href="https://www.instagram.com/thechillipeople">
-            <img src="insta_white.png" width = 50px height = 50px>
-        </a>
-    </div>
-
-</body>
-
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The Chilli People</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css?v=1.2" rel="stylesheet">
+		<link href="css/queries.css?v=1.2" rel="stylesheet">
+		<link rel="stylesheet" href="css/flexslider.css?v=1.2" type="text/css">
+		<link rel="stylesheet" href="css/animate.css" type="text/css">
+    	<link rel="icon" type="image/png" href="./ChilliImg/noun_chilli_2387889 - black_square.png"/>
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+        <body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="responsive-logo"></div>
+					<div class="pullcontainer">
+						<a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<nav>
+							<div class="logo-holder"></div>
+							<ul class="clearfix">
+								<li><a href="/index.html#about">About</a></li>
+								<li class="dot">.</li>
+								<li><a href="index.html#work" class="r_spacer">Products</a></li>
+								<li><a href="index.html#shop">Gallery</a></li>
+								<li class="dot">.</li>
+								<li><a href="/shop.html">Shop</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="form">
+    	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCbsnyLImXxtYZ408jxi-PAEDCyAikmI85WIiouyEL5JzIsQ/viewform?embedded=true" width=100% height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    	</div>
+		<!-- <section class="sign_up">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 sign-up">
+						<h2 class="logo-header">Stay on the saddle!</h2>
+						<form name="signup-form">
+							<input class="signup-input" type="email" name="email_address" value="" placeholder="enter your email..." title="Please enter a valid email address." required>
+							<button type="submit" class="submit-btn">GO</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<footer id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 footer-leftcol">
+						<p><span class="bold-16p">AOD New York</span><br>
+						2250 Lexington Avenue<br>
+						New York, NY 10035 - <a href="#">info@domain.com</a>
+						</p>
+					</div>
+					<div class="col-md-4 footer-midcol">
+						<ul>
+							<li><a href="https://www.instagram.com/thechillipeople/" class="insta-icon">Instagram</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-4 footer-rightcol">
+						<p>Designed by <a href="#"><img src="img/yebo-icon.png" alt="Yebo Logo"></a></p>
+						<p class="nopadding">Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/modernizr.js"></script>
+		<script src="js/waypoints.min.js"></script>
+	</body>
 </html>
