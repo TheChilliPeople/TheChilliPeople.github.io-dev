@@ -263,21 +263,28 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer { margin-right: 150px; }
 .intro { padding: 115px 0; background-color: #fbfbfb; }
 .section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-2 { background: url(../img/left-box-2.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-3 { background: url(../img/red-frame.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-4 { background: url(../img/red-bike.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+.section-2 { background: url(../ChilliImg/Oil_in_garden_cropped.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-3 { background: url(../ChilliImg/tshirt-hanging.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-4-top { background: url(../ChilliImg/tote_bag.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 300px; }
+.section-4-bottom {
+	background: url(../ChilliImg/cap_black.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 300px;
+}
 .section-text { position: relative; height: 600px; }
 .nopadding { padding: 0 !important; margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 8% auto 0 auto; }
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
 .seat-red { background: url(../img/seat-red.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .seat-black { background: url(../img/seat-black.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.frame-red { background: url(../img/chrome-wheels.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.cap { background: url(../ChilliImg/cap_black_cropped.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
 .logo-1 { width: 113px; height: 118px; background: url(../img/bicycle-logo.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
 .logo-2 { width: 177px; height: 152px; background: url(../img/vintage-logo.png); position: absolute; left: 50%; top: 50%; margin-top: -70px; margin-left: -90px; }
-.logo-3 { width: 208px; height: 67px; background: url(../img/bicycles-sml-logo.png); position: absolute; left: 50%; top: 50%; margin-left: -110px; margin-top: -10px; }
 .flex-container { background-color: #f7f7f7; padding: 125px 0 35px; text-align: center; }
 .flex-twitter-icon { width: 32px; height: 27px; background: url(../img/twitter-bird.png) no-repeat center center; margin: 0 auto; }
 p.twitter-post { color: #848789; font-size: 24px; font-style: italic; font-weight: 300; margin-bottom: 100px; }
