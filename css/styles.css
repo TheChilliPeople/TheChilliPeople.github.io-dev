@@ -285,9 +285,9 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
 .logo-1 { width: 113px; height: 118px; background: url(../img/bicycle-logo.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
 .logo-2 { width: 177px; height: 152px; background: url(../img/vintage-logo.png); position: absolute; left: 50%; top: 50%; margin-top: -70px; margin-left: -90px; }
-.flex-container { background-color: #f7f7f7; padding: 125px 0 35px; text-align: center; }
+.flex-container { background-color: #f7f7f7; padding: 50px 0 0px; text-align: center; }
 .flex-twitter-icon { width: 32px; height: 27px; background: url(../img/twitter-bird.png) no-repeat center center; margin: 0 auto; }
-p.twitter-post { color: #848789; font-size: 24px; font-style: italic; font-weight: 300; margin-bottom: 100px; }
+p.testimonial { color: #848789; font-size: 24px; font-style: italic; font-weight: 300; margin-bottom: 60px; }
 .left-box-1 { width: 50%; float: left; }
 .left-box-2 { width: 50%; float: right; }
 .left-box-btm { width: 100%; }
@@ -318,20 +318,20 @@ a.close-overlay.hidden { display: none }
 .signup-input { border: solid 1px #d3d7d9; padding: 25px; width: 65%; color: #929292; font-style: italic; letter-spacing: 1px; }
 .submit-btn { background-color: #64c29e; color: #fff; border: solid 1px #64c29e; font-weight: 300; padding: 25px 50px; }
 section.sign_up { padding: 40px 0 110px 0; }
-footer { background-color: #f7f7f7; padding: 100px 0; }
+footer { background-color: #f7f7f7; padding: 50px 0; }
 footer p { font-size: 13px; margin: 0; }
 .footer-leftcol p { text-align: left; }
-.footer-rightcol p { text-align: right; font-style: italic; margin-top: 20px; }
+.footer-rightcol p { text-align: right; font-style:italic ; margin-top: 20px; letter-spacing:normal;}
 .bold-16p { font-size: 15px; font-weight: 600; }
 .footer-midcol { margin-left: auto; margin-right: auto; }
-.footer-midcol ul { text-align: center; padding: 0; }
-.footer-midcol li { list-style: none; display: inline-block; margin-right: 15px; }
+.footer-midcol ul { text-align: center; padding-left:10px; }
+.footer-midcol li { list-style: none; display: inline-block; margin-right: 15px;}
 .footer-midcol li a { opacity: 1; }
 .footer-midcol li a:hover { opacity: 0.5; }
 .twitter-icon { background: url(../img/twitter-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
 .facebook-icon { background: url(../img/facebook-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
 .pintrest-icon { background: url(../img/pintrest-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
-.insta-icon {background: url(../ChilliImg/insta_icon.png); height: 30px; width: 40px; display: block; text-indent: -9999px; }
+.insta-icon {background: url(../ChilliImg/insta_icon.png); height: 30px; width: 35px; display: block; text-indent: -9999px; }
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
 .form {
