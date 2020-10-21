@@ -4,12 +4,15 @@ CSS Queries
 
 @media screen and (max-width:640px) {
     .shop-btn { padding: 15px 25px; font-size: 10px; }
+    .pullcontainer a#pull {
+        display:block;
+    }
 }
 @media screen and (max-width:1200px) {
     p{font-size: 14px; }
     .thin-sep { display: none; }
     .arrow { display: none; }
-    nav { height: auto; width: 100%; background: none; margin: 100px 0 0 0; }
+    nav { height: auto; width: 100%; background: none; margin: 70px 0 0 0; }
     .nav-wrapper { background-color: #fff; }
     nav ul { width: 100%; display: block; height: auto; padding: 0; }
     nav li { width: 100%; float: left; position: relative; text-align: center; }
