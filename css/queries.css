@@ -4,9 +4,7 @@ CSS Queries
 
 @media screen and (max-width:640px) {
     .shop-btn { padding: 15px 25px; font-size: 10px; }
-    .pullcontainer a#pull {
-        display:block;
-    }
+
 }
 @media screen and (max-width:1200px) {
     p{font-size: 14px; }
@@ -31,6 +29,6 @@ CSS Queries
 @media only screen and (max-width:1200px) {
     nav { border-bottom: 20px; }
     nav ul { display: none; height: auto; }
-    .pullcontainer { width: 100%; text-align: right; padding: 20px 20px 0 0; }
+    .pullcontainer { width: 100%; text-align: right; padding: 60px 60px 0 0; }
     .pullcontainer a#pull { display: block; width: 100%; color: #242a2c; }
 }
