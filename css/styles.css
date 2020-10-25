@@ -417,14 +417,14 @@ p.text-intro-shop {
 
 .column-right {
 	float: right;
-	width: 50%;
-	padding: 5px;
+	width: 60%;
+	padding: 5px 50px;
 	text-align: left;
 	position: relative;
 }
 .column-left {
 	float: left;
-	width: 50%;
+	width: 40%;
 	padding: 10px 50px;
 	position: relative;
 }
