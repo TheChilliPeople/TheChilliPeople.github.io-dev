@@ -37,16 +37,16 @@ CSS Queries
         float: center;
     }
     h2.gift {
-        font-size: 20px
+        font-size: 19px
     }
     h2.oil {
-        font-size: 20px
+        font-size: 19px
     }
     h2.merch {
-        font-size: 20px
+        font-size: 19px
     }
     p.info-text{
-        font-size: 18px
+        font-size: 16px
     }
 }
 @media only screen and (max-width:1200px) {

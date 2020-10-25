@@ -331,7 +331,7 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 	background-size: cover;
 	height: 300px;
 }
-.section-text { position: relative; height: 600px; }
+.section-text { position: relative; height: 600px; vertical-align: middle;}
 .nopadding { padding: 0 !important; margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 20% auto 0 auto; }
 p.info-text {font-size: 15px;}
