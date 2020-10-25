@@ -173,7 +173,16 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
 Headings
 ========================================================================== */
-h1.about { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../ChilliImg/noun_chilli_50.png) no-repeat top center; padding-top: 75px; }
+h1.about { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../ChilliImg/noun_chilli_50.png) no-repeat top center; padding-top: 10px;}
+h1.shop {
+	text-align: center;
+	text-transform: uppercase;
+	color: #353738;
+	letter-spacing: 2px;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 40px;
+}
 h2.gift {
 	text-align: center;
 	text-transform: uppercase;
@@ -208,18 +217,24 @@ h2.merch {
 	margin-top: 25px;
 }
 .shop-now {
-	text-align: center;
+	float: right;
 	text-transform: uppercase;
 	color: #353738;
 	letter-spacing: 2px;
 	font-size: 14px;
 	font-weight: 600;
-	padding-top: 10px;
-	margin-top: 5px;
+}
+.more-info {
+	float: left;
+	text-transform: uppercase;
+	color: #353738;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 600;
 }
 h2.twitter-post-username { color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 30px; }
 h2.twitter-post-username span { color: #848789; font-weight: 300; }
-h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../ChilliImg/TheChilliPeople_Logo_Black_small.png) no-repeat top center; padding-top: 120px; margin: 70px 0 40px 0; font-style: italic; }
+h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../ChilliImg/MainLogo_Black_Small.png) no-repeat top center; padding-top: 120px; margin: 70px 0 40px 0; font-style: italic; }
 /* ==========================================================================
 User Styles
 ========================================================================== */
@@ -235,6 +250,7 @@ a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s
 a:hover { color: #7e0909; text-decoration: underline; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro { font-size: 18px; }
+p.text-intro-shop { font-size: 18px; margin-left: 15%; margin-right: 15%; margin-bottom: -50px;}
 .hero {
 	background: url(../ChilliImg/Chilli-hero_cropped.jpg) no-repeat top center #f5f6f6;
 	-webkit-background-size: cover;
@@ -245,7 +261,7 @@ p.text-intro { font-size: 18px; }
 }
 nav { height: 100px; margin-top: 15px; position: relative; }
 .logo-holder {
-	background: url(../ChilliImg/TheChilliPeople_Logo_Black_small.png) no-repeat center center;
+	background: url(../ChilliImg/MainLogo_Black_Small.png) no-repeat center center;
 	width: 100px;
 	height: 90px;
 	position: absolute;
@@ -260,8 +276,37 @@ header {
 header ul { padding-top: 35px; }
 header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
+
+/* The alert message box */
+.alert {
+	padding: 15px;
+	background-color: #8a1810;
+	/* Maroon */
+	color: white;
+	margin-bottom: 0px;
+	text-align: center;
+	text-emphasis: bold;
+}
+
+/* The close button */
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+	color: black;
+}
+
 .r_spacer { margin-right: 150px; }
-.intro { padding: 115px 50px; background-color: #fbfbfb; }
+.intro { padding: 40px 20px; background-color: #fbfbfb; }
 .section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-2 { background: url(../ChilliImg/Oil_in_garden_cropped.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-3 { background: url(../ChilliImg/tshirt-hanging.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
@@ -276,14 +321,14 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 }
 .section-text { position: relative; height: 600px; }
 .nopadding { padding: 0 !important; margin: 0 !important; }
-.thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 8% auto 0 auto; }
+.thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 20% auto 0 auto; }
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
 .seat-red { background: url(../img/seat-red.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .seat-black { background: url(../img/seat-black.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .tshirts { background: url(../ChilliImg/tshirts_back_cropped.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
-.logo-1 { width: 118px; height: 110px; background: url(../ChilliImg/TheChilliPeople_Logo_White_small.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
+.logo-1 { width: 118px; height: 100px; background: url(../ChilliImg/MainLogo_White_Small.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
 .flex-container { background-color: #f7f7f7; padding: 50px 0 0px; text-align: center; }
 .flex-twitter-icon { width: 32px; height: 27px; background: url(../img/twitter-bird.png) no-repeat center center; margin: 0 auto; }
 p.testimonial { color: #848789; font-size: 24px; font-style: italic; font-weight: 300; margin-bottom: 60px; }
@@ -335,4 +380,51 @@ footer p { font-size: 13px; margin: 0; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
 .form {
 	background-color: #f5f6f6;
+}
+
+/*************************** 
+		PRODUCT PAGE 
+***************************/
+
+.prod_background {
+	height: 450px;
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top:60px;
+}
+
+.prod-1 {
+	background: url(../ChilliImg/cap_black.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100px;
+	position: relative;
+}
+.column-right {
+	float: right;
+	width: 50%;
+	padding: 5px;
+	text-align: left;
+}
+.column-left {
+	float: left;
+	width: 50%;
+	padding: 100px 50px;
+}
+
+h1.product {
+	text-align: center;
+	text-transform: uppercase;
+	color: #353738;
+	letter-spacing: 2px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+p.product-info{
+	font-size: 16px;
+	text-align: left;
 }

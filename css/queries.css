@@ -17,7 +17,7 @@ CSS Queries
     nav ul li a { width: 100%; float: left; position: relative; padding: 25px 0; text-align: center; border-bottom: 1px dotted rgba(255, 255, 255, 0.2); margin: 0px; }
     nav ul li a.last { border-bottom: none; }
     nav ul li.dot { display: none; }
-    .responsive-logo { background: url(../ChilliImg/TheChilliPeople_Logo_Black_small.png) no-repeat center center; width: 94px; height: 90px; position: absolute; top: 30px; left: 10%; }
+    .responsive-logo { background: url(../ChilliImg/MainLogo_Black_Small.png) no-repeat center center; width: 100px; height: 90px; position: absolute; top: 30px; left: 10%; }
     .logo-1 { position: absolute; left: 50%; top: 50%; }
     .logo-holder { display: none; }
     .logo-2 { position: absolute; left: 50%; top: 50%; }
@@ -25,6 +25,9 @@ CSS Queries
     .footer-leftcol p, .footer-rightcol p { text-align: center; }
     .footer-midcol ul { margin-top: 40px; }
     .submit-btn { margin-top: 10px; }
+    .column {
+        width: 100%;
+    }
 }
 @media only screen and (max-width:1200px) {
     nav { border-bottom: 20px; }
