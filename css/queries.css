@@ -10,7 +10,7 @@ CSS Queries
     p{font-size: 14px; }
     .thin-sep { display: none; }
     .arrow { display: none; }
-    nav { height: auto; width: 100%; background: none; margin: 100px 0 0 0; }
+    nav { height: auto; width: 100%; background: none; margin: 50px 0 0 0; }
     .nav-wrapper { background-color: #fff; }
     nav ul { width: 100%; display: block; height: auto; padding: 0; }
     nav li { width: 100%; float: left; position: relative; text-align: center; }
@@ -27,6 +27,14 @@ CSS Queries
     .submit-btn { margin-top: 10px; }
     .column {
         width: 100%;
+    }
+    .column-left {
+        width: 100%;
+        float: center;
+    }
+    .column-right {
+        width: 100%;
+        float: center;
     }
 }
 @media only screen and (max-width:1200px) {

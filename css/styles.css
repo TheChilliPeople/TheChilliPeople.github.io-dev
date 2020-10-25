@@ -250,7 +250,7 @@ a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s
 a:hover { color: #7e0909; text-decoration: underline; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro { font-size: 18px; }
-p.text-intro-shop { font-size: 18px; margin-left: 15%; margin-right: 15%; margin-bottom: -50px;}
+p.text-intro-shop { font-size: 18px; margin-left: 15%; margin-right: 15%; margin-bottom: 20px;}
 .hero {
 	background: url(../ChilliImg/Chilli-hero_cropped.jpg) no-repeat top center #f5f6f6;
 	-webkit-background-size: cover;
@@ -322,6 +322,12 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .section-text { position: relative; height: 600px; }
 .nopadding { padding: 0 !important; margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 20% auto 0 auto; }
+.thin-sep-shop {
+	height: 1px;
+	background-color: #d7d7d7;
+	width: 50px;
+	margin: 0% auto 0 auto;
+}
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
 .seat-red { background: url(../img/seat-red.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .seat-black { background: url(../img/seat-black.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
@@ -387,32 +393,24 @@ footer p { font-size: 13px; margin: 0; }
 ***************************/
 
 .prod_background {
-	height: 450px;
 	background-color: white;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top:60px;
 }
 
-.prod-1 {
-	background: url(../ChilliImg/cap_black.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 100px;
-	position: relative;
-}
 .column-right {
 	float: right;
 	width: 50%;
 	padding: 5px;
 	text-align: left;
+	position: relative;
 }
 .column-left {
 	float: left;
 	width: 50%;
-	padding: 100px 50px;
+	padding: 50px 50px;
+	position: relative;
 }
 
 h1.product {
