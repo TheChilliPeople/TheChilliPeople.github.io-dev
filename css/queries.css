@@ -36,7 +36,7 @@ CSS Queries
         width: 100%;
         float: center;
     }
-    h2.gift {
+    /* h2.gift {
         font-size: 19px
     }
     h2.oil {
@@ -47,7 +47,7 @@ CSS Queries
     }
     p.info-text{
         font-size: 16px
-    }
+    } */
 }
 @media only screen and (max-width:1200px) {
     nav { border-bottom: 20px; }

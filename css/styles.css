@@ -191,29 +191,7 @@ h1.shop {
 	font-weight: 600;
 	padding-top: 40px;
 }
-h2.gift {
-	text-align: center;
-	text-transform: uppercase;
-	color: #353738;
-	letter-spacing: 2px;
-	font-size: 18px;
-	font-weight: 600;
-	background: url(../ChilliImg/noun_chilli_50.png) no-repeat top center;
-	padding-top: 65px;
-	margin-top: 25px;
-}
-h2.oil {
-	text-align: center;
-	text-transform: uppercase;
-	color: #353738;
-	letter-spacing: 2px;
-	font-size: 18px;
-	font-weight: 600;
-	background: url(../ChilliImg/noun_chilli_50.png) no-repeat top center;
-	padding-top: 65px;
-	margin-top: 25px;
-}
-h2.merch {
+h2.prod-home {
 	text-align: center;
 	text-transform: uppercase;
 	color: #353738;
