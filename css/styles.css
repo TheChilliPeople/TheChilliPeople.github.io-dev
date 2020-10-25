@@ -231,6 +231,7 @@ h2.merch {
 	letter-spacing: 2px;
 	font-size: 14px;
 	font-weight: 600;
+	padding-bottom: 10px;
 }
 .more-info {
 	float: left;
@@ -434,4 +435,5 @@ h1.product {
 p.product-info{
 	font-size: 16px;
 	text-align: left;
+	color: #848789;
 }
