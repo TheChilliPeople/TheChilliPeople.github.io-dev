@@ -443,3 +443,12 @@ p.product-info{
 	text-align: left;
 	color: #848789;
 }
+
+.back {
+	float: left;
+	text-transform: uppercase;
+	color: #353738;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 600;
+}
