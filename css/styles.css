@@ -241,8 +241,6 @@ h2.merch {
 	font-size: 14px;
 	font-weight: 600;
 }
-h2.twitter-post-username { color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 30px; }
-h2.twitter-post-username span { color: #848789; font-weight: 300; }
 h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../ChilliImg/MainLogo_Black_Small.png) no-repeat top center; padding-top: 120px; margin: 70px 0 40px 0; font-style: italic; }
 /* ==========================================================================
 User Styles
@@ -250,6 +248,10 @@ User Styles
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 /* ==========================================================================
 User Styles
+========================================================================== */
+
+/* ==========================================================================
+	INDEX
 ========================================================================== */
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
@@ -259,7 +261,6 @@ a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s
 a:hover { color: #7e0909; text-decoration: underline; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro { font-size: 18px; }
-p.text-intro-shop { font-size: 18px; margin-left: 15%; margin-right: 15%; margin-bottom: 20px;}
 .hero {
 	background: url(../ChilliImg/Chilli-hero_cropped.jpg) no-repeat top center #f5f6f6;
 	-webkit-background-size: cover;
@@ -285,6 +286,9 @@ header {
 header ul { padding-top: 35px; }
 header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
+.r_spacer {
+	margin-right: 150px;
+}
 
 /* The alert message box */
 .alert {
@@ -314,7 +318,6 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 	color: black;
 }
 
-.r_spacer { margin-right: 150px; }
 .intro { padding: 40px 20px; background-color: #fbfbfb; text-align: center;}
 .section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-2 { background: url(../ChilliImg/Oil_in_garden_cropped.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
@@ -331,12 +334,6 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .section-text { position: relative; height: 600px; }
 .nopadding { padding: 0 !important; margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 20% auto 0 auto; }
-.thin-sep-shop {
-	height: 1px;
-	background-color: #d7d7d7;
-	width: 50px;
-	margin: 0% auto 0 auto;
-}
 p.info-text {font-size: 15px;}
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
 .seat-red { background: url(../img/seat-red.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
@@ -344,9 +341,7 @@ p.info-text {font-size: 15px;}
 .tshirts { background: url(../ChilliImg/tshirts_back_cropped.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
-.logo-1 { width: 118px; height: 100px; background: url(../ChilliImg/MainLogo_White_Small.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
 .flex-container { background-color: #f7f7f7; padding: 50px 0 0px; text-align: center; }
-.flex-twitter-icon { width: 32px; height: 27px; background: url(../img/twitter-bird.png) no-repeat center center; margin: 0 auto; }
 p.testimonial { color: #848789; font-size: 24px; font-style: italic; font-weight: 300; margin-bottom: 60px; }
 .left-box-1 { width: 50%; float: left; }
 .left-box-2 { width: 50%; float: right; }
@@ -374,10 +369,6 @@ a.close-overlay.hidden { display: none }
 .discover { background-color: #282f35; padding: 70px 0; text-align: center; }
 .shop-btn { border: solid 1px #bbb; padding: 15px 50px; color: #fff; text-transform: uppercase; letter-spacing: 3px; font-weight: 400; }
 .shop-btn:hover, .shop-btn:focus { border: solid 1px #64c29e; }
-.sign-up { text-align: center; }
-.signup-input { border: solid 1px #d3d7d9; padding: 25px; width: 65%; color: #929292; font-style: italic; letter-spacing: 1px; }
-.submit-btn { background-color: #64c29e; color: #fff; border: solid 1px #64c29e; font-weight: 300; padding: 25px 50px; }
-section.sign_up { padding: 40px 0 110px 0; }
 footer { background-color: #f7f7f7; padding: 50px 0; }
 footer p { font-size: 13px; margin: 0; }
 .footer-leftcol p { text-align: left; }
@@ -388,19 +379,33 @@ footer p { font-size: 13px; margin: 0; }
 .footer-midcol li { list-style: none; display: inline-block; margin-right: 15px;}
 .footer-midcol li a { opacity: 1; }
 .footer-midcol li a:hover { opacity: 0.5; }
-.twitter-icon { background: url(../img/twitter-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
-.facebook-icon { background: url(../img/facebook-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
-.pintrest-icon { background: url(../img/pintrest-icon.png); height: 34px; width: 35px; display: block; text-indent: -9999px; }
 .insta-icon {background: url(../ChilliImg/insta_icon.png); height: 30px; width: 35px; display: block; text-indent: -9999px; }
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp { visibility: visible; }
+
+/* ==========================================================================
+	SHOP
+========================================================================== */
+
+p.text-intro-shop {
+	font-size: 18px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 20px;
+}
+.thin-sep-shop {
+	height: 1px;
+	background-color: #d7d7d7;
+	width: 50px;
+	margin: 0% auto 0 auto;
+}
 .form {
 	background-color: #f5f6f6;
 }
 
-/*************************** 
-		PRODUCT PAGE 
-***************************/
+/* ==========================================================================
+	PRODUCT PAGES
+========================================================================== */
 
 .prod_background {
 	background-color: white;
