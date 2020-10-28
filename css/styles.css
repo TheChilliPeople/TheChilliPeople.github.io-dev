@@ -240,7 +240,7 @@ a:hover { color: #7e0909; text-decoration: underline; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro { font-size: 18px; }
 .hero {
-	background: url(../ChilliImg/Chilli-hero_cropped.jpg) no-repeat top center #f5f6f6;
+	background: url(../ChilliImg/kitchen_padded.png) no-repeat top center #f5f6f6;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -315,7 +315,7 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 p.info-text {font-size: 15px;}
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
 .seat-red { background: url(../img/seat-red.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.seat-black { background: url(../img/seat-black.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.bottle-line { background: url(../ChilliImg/Bottle_line.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .tshirts { background: url(../ChilliImg/tshirts_back_cropped.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
@@ -367,8 +367,8 @@ footer p { font-size: 13px; margin: 0; }
 
 p.text-intro-shop {
 	font-size: 18px;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-bottom: 20px;
 }
 .thin-sep-shop {
@@ -394,16 +394,16 @@ p.text-intro-shop {
 }
 
 .column-right {
-	float: left;
+	float: right;
 	width: 60%;
 	padding: 5px 50px;
 	text-align: left;
 	position: relative;
 }
 .column-left {
-	float: right;
+	float: left;
 	width: 40%;
-	padding: 10px 50px;
+	padding: 10px 30px;
 	position: relative;
 }
 
