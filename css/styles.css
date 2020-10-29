@@ -103,6 +103,19 @@ Figures
 /* * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11. */
  
 figure { margin: 0; }
+
+/* ==========================================================================
+Fonts
+========================================================================== */
+
+@font-face {
+	font-family: 'rayjohnsonregular';
+	src: url('/fonts/rayjohns-webfont.woff2') format('woff2'),
+		url('/fonts/rayjohns-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* ==========================================================================
 Forms
 ========================================================================== */
@@ -175,21 +188,33 @@ Headings
 ========================================================================== */
 h1.about {
 	text-align: center;
-	text-transform: uppercase;
 	color: #353738;
 	letter-spacing: 2px;
-	font-size: 18px;
+	font-size: 34px;
+	font-family: 'rayjohnsonregular';
 	font-weight: 600;
-	padding-top: 10px;
+	padding-top: 0px;
+	padding-bottom: 6px;
 }
 h1.shop {
 	text-align: center;
 	text-transform: uppercase;
 	color: #353738;
 	letter-spacing: 2px;
-	font-size: 18px;
+	font-family: 'rayjohnsonregular';
+	font-size: 34px;
 	font-weight: 600;
 	padding-top: 40px;
+}
+h1.products {
+	text-align: center;
+	text-transform: uppercase;
+	color: #353738;
+	letter-spacing: 2px;
+	font-family: 'rayjohnsonregular';
+	font-size: 34px;
+	font-weight: 600;
+	padding-top: 10px;
 }
 h2.prod-home {
 	text-align: center;
@@ -219,7 +244,7 @@ h2.prod-home {
 	font-size: 14px;
 	font-weight: 600;
 }
-h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../ChilliImg/MainLogo_Black_Small.png) no-repeat top center; padding-top: 120px; margin: 70px 0 40px 0; font-style: italic; }
+h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../ChilliImg/small_logo_100.png) no-repeat top center; padding-top: 110px; margin: 70px 0 40px 0; font-style: italic; }
 /* ==========================================================================
 User Styles
 ========================================================================== */
@@ -239,21 +264,30 @@ a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s
 a:hover { color: #7e0909; text-decoration: underline; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro { font-size: 18px; }
-.hero {
-	background: url(../ChilliImg/kitchen_padded.png) no-repeat top center #f5f6f6;
+.hero1 {
+	background: url(../ChilliImg/Chilli-hero_cropped.jpg) no-repeat top center #f5f6f6;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	height: 685px;
 }
+.hero2 {
+	background: url(../ChilliImg/kitchen_padded_small.png) no-repeat top center #f5f6f6;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 400px;
+	margin: 40px 0;
+}
 nav { height: 100px; margin-top: 15px; position: relative; }
 .logo-holder {
-	background: url(../ChilliImg/MainLogo_Black_Small.png) no-repeat center center;
-	width: 100px;
-	height: 90px;
+	background: url(../ChilliImg/small_logo_100.png) no-repeat center center;
+	width: 110px;
+	height: 100px;
 	position: absolute;
-	top: 0;
+	top: -5px;
 	left: 50%;
 	transform: translateX(-50%)
 }
@@ -267,6 +301,11 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer {
 	margin-right: 150px;
 }
+.prod-title {
+	background-color: white;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	}
 
 /* The alert message box */
 .alert {
@@ -311,6 +350,12 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 }
 .section-text { position: relative; height: 600px; vertical-align: middle;}
 .nopadding { padding: 0 !important; margin: 0 !important; }
+.thin-sep-prod {
+	height: 1px;
+	background-color: #d7d7d7;
+	width: 50px;
+	margin: 0 auto 0 auto;
+}
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 20% auto 0 auto; }
 p.info-text {font-size: 15px;}
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
