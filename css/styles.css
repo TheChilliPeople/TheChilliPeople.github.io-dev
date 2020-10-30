@@ -198,7 +198,6 @@ h1.about {
 }
 h1.shop {
 	text-align: center;
-	text-transform: uppercase;
 	color: #353738;
 	letter-spacing: 2px;
 	font-family: 'rayjohnsonregular';
@@ -208,7 +207,6 @@ h1.shop {
 }
 h1.products {
 	text-align: center;
-	text-transform: uppercase;
 	color: #353738;
 	letter-spacing: 2px;
 	font-family: 'rayjohnsonregular';
