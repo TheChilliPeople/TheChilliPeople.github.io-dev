@@ -30,8 +30,9 @@ CSS Queries
     }
     .column-left {
         width: 100%;
-        float: center;
-        padding: 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center
     }
     .column-right {
         width: 100%;
