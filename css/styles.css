@@ -270,6 +270,14 @@ p.text-intro { font-size: 18px; }
 	background-size: cover;
 	height: 685px;
 }
+.bottle-hero {
+	background: url(../ChilliImg/bottle_hero_cropped.jpg) no-repeat top center #f5f6f6;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 500px;
+}
 .hero2 {
 	background: url(../ChilliImg/kitchen_padded_small.png) no-repeat top center #f5f6f6;
 	-webkit-background-size: cover;
