@@ -242,7 +242,7 @@ h2.prod-home {
 	font-size: 14px;
 	font-weight: 600;
 }
-h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../ChilliImg/small_logo_100.png) no-repeat top center; padding-top: 110px; margin: 70px 0 40px 0; font-style: italic; }
+h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../ChilliImg/small_high_res.png) no-repeat top center; padding-top: 110px; margin: 70px 0 40px 0; font-style: italic; background-size: 100px;}
 /* ==========================================================================
 User Styles
 ========================================================================== */
@@ -281,13 +281,14 @@ p.text-intro { font-size: 18px; }
 }
 nav { height: 100px; margin-top: 15px; position: relative; }
 .logo-holder {
-	background: url(../ChilliImg/small_logo_100.png) no-repeat center center;
+	background: url(../ChilliImg/small_high_res.png) no-repeat center center;
 	width: 110px;
 	height: 100px;
 	position: absolute;
 	top: -5px;
 	left: 50%;
-	transform: translateX(-50%)
+	transform: translateX(-50%);
+	background-size: 100px;
 }
 .responsive-logo { display: hidden; }
 header {
@@ -334,8 +335,8 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 }
 
 .intro { padding: 40px 20px; background-color: #fbfbfb; text-align: center;}
-.section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-2 { background: url(../ChilliImg/Oil_in_garden_cropped.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-1 { background: url(../ChilliImg/gift_set_horiz.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-2 { background: url(../ChilliImg/Bottles-horiz.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-3 { background: url(../ChilliImg/tshirt-hanging.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-4-top { background: url(../ChilliImg/tote_bag.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 300px; }
 .section-4-bottom {
@@ -357,8 +358,16 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 20% auto 0 auto; }
 p.info-text {font-size: 15px;}
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
-.seat-red { background: url(../img/seat-red.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.batch-3 { background: url(../ChilliImg/Batch_resized.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; margin-bottom: 20px}
 .bottle-line { background: url(../ChilliImg/Bottle_line.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.chillies {
+	background: url(../ChilliImg/Chilli_resized.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-bottom: 40px;
+}
 .tshirts { background: url(../ChilliImg/tshirts_back_cropped.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
