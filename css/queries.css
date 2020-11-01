@@ -25,9 +25,6 @@ CSS Queries
     .footer-leftcol p, .footer-rightcol p { text-align: center; }
     .footer-midcol ul { margin-top: 40px; }
     .submit-btn { margin-top: 10px; }
-    .small-featured-sketch {
-        height: 300px;
-    }
     .column {
         width: 100%;
     }
@@ -41,6 +38,9 @@ CSS Queries
         width: 100%;
         float: center;
         padding: 5px 5px;
+    }
+    .small-featured-sketch {
+        background-size: auto 100%;
     }
 }
 @media only screen and (max-width:1200px) {

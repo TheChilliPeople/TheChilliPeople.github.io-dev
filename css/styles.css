@@ -372,8 +372,13 @@ p.info-text {font-size: 15px;}
 	position: absolute;
 	bottom: 0;
 }
-.batch-3 { background: url(../ChilliImg/Batch_resized.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; margin-bottom: 20px}
-.bottle-line { background: url(../ChilliImg/Bottle_line.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.batch-3 { background: url(../ChilliImg/Batch_resized.jpg) no-repeat center center; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	margin-bottom: 20px; 
+	max-height: 200px;}
 .chillies {
 	background: url(../ChilliImg/Chilli_resized.jpg) no-repeat center center;
 	-webkit-background-size: cover;
@@ -381,6 +386,7 @@ p.info-text {font-size: 15px;}
 	-o-background-size: cover;
 	background-size: cover;
 	margin-bottom: 40px;
+	max-height: 200px;
 }
 .tshirts { background: url(../ChilliImg/tshirts_back_cropped.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
