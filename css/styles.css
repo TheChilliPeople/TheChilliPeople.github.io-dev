@@ -366,6 +366,12 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 20% auto 0 auto; }
 p.info-text {font-size: 15px;}
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
+.small-featured-sketch {
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
 .batch-3 { background: url(../ChilliImg/Batch_resized.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; margin-bottom: 20px}
 .bottle-line { background: url(../ChilliImg/Bottle_line.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .chillies {

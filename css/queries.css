@@ -25,6 +25,9 @@ CSS Queries
     .footer-leftcol p, .footer-rightcol p { text-align: center; }
     .footer-midcol ul { margin-top: 40px; }
     .submit-btn { margin-top: 10px; }
+    .small-featured-sketch {
+        height: 300px;
+    }
     .column {
         width: 100%;
     }
@@ -39,18 +42,6 @@ CSS Queries
         float: center;
         padding: 5px 5px;
     }
-    /* h2.gift {
-        font-size: 19px
-    }
-    h2.oil {
-        font-size: 19px
-    }
-    h2.merch {
-        font-size: 19px
-    }
-    p.info-text{
-        font-size: 16px
-    } */
 }
 @media only screen and (max-width:1200px) {
     nav { border-bottom: 20px; }
