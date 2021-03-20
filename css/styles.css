@@ -463,6 +463,35 @@ p.text-intro-shop {
 	margin-bottom: -50px;
 }
 
+.email_form {
+	padding: 20px;
+	text-align: center;
+}
+
+input[type=email] {
+	width: 300px;
+	font-size: 16px;
+	padding:10px;
+	margin:10px 0;
+	border-radius:10px;
+	border-style: solid;
+	border-color: grey;
+}
+
+button {
+	/* remove default behavior */
+	appearance:none;
+	-webkit-appearance:none;
+	/* usual styles */
+	padding:13px;
+	margin:10px 0;
+	border:none;
+	background-color:#8a1810;
+	color:#fff;
+	font-weight:600;
+	border-radius:5px;
+}
+
 /* ==========================================================================
 	PRODUCT PAGES
 ========================================================================== */
