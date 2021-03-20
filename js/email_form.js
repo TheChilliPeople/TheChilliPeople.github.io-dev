@@ -15,9 +15,8 @@ $('#submit-form').on('click', function(e) {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-                // Question 1
-                let form_response = document.querySelector('#form_response');
-                let form_submit = document.querySelector('#submit_form');
-                form_submit.onclick = function() {
-                    form_response.innerHTML = 'Thanks!';
-                }; })
+  let form_response = document.querySelector('#form_response');
+  let form_submit = document.querySelector('#submit_form');
+  form_submit.onclick = function() {
+      form_response.innerHTML = 'Thanks!';
+  }; })
