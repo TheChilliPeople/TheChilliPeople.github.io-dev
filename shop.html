@@ -50,25 +50,16 @@
 		<div class="container-fluid">
 			<h1 class="shop">The Chilli Shop</h1>
 			<p class="text-intro-shop">
-				We're currently taking orders for delivery in the UK but if you'd like to
-				place an order for delivery somewhere else then get in touch and we'll see
-				what we can do!<br><br>
-				For more information on the products below, visit the <a href="../#products">product section</a> of our homepage.<br><br>
-				We're currently out of stock of our chilli oil products and have paused production. Please leave your email
-				address below to be the first to hear about future restocks!
+				We're currently out of stock of our chilli oil products and have paused production. Please leave your details
+				below to be the first to hear about future restocks!
 			</p>
 		</div>
-		<form class="email_form" id="email_form">
-			<div></div>
-				<input type="email" name="email_address" placeholder="yourname@example.com"/>
-				<button type="submit" id="form_submit">Submit</button>
-			</div>
-		</form>
-		<div>
-			<p class="text-intro-shop" id="form_response"><br></p>
+		<div class="cognito">
+			<script src="https://www.cognitoforms.com/s/TqK3xq0qZk-PPNDkXaV_5g"></script>
+			<script>Cognito.load("forms", { id: "3" });</script>
 		</div>
-		<div class="thin-sep-shop"></div>
-		<iframe src="https://www.cognitoforms.com/f/TqK3xq0qZk-PPNDkXaV_5g?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1943" width="100%"></iframe>
+		<!--<div class="thin-sep-shop"></div>
+		<iframe src="https://www.cognitoforms.com/f/TqK3xq0qZk-PPNDkXaV_5g?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1943" width="100%"></iframe>-->
 		<footer id="contact">
 			<div class="container">
 				<div class="row">
@@ -103,5 +94,6 @@
 		<script src="js/email_form.js"></script>
 		<script src="js/jquery-serialize-object.js"></script>
 		<script src="https://www.cognitoforms.com/scripts/embed.js"></script>
+		<script>Cognito.setCss('.c-forms-form { margin: 0 auto; }');</script>
 	</body>
 </html>
